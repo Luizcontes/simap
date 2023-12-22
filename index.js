@@ -16,6 +16,7 @@ import puppeteer from 'puppeteer';
   const form = await page.waitForXPath('/html/body/div/div/div/div/div/div/div/div/div/div/div/div/table/tbody/tr[40]/td[3]/div/a/i');
   form.click();
 
+  
   // wait 5 second for the page to load
   await esperar(5000);
 
